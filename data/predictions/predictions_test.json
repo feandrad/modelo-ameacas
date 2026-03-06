@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "created_at": "2026-03-05T22:47:05.721670Z",
+    "input_dir": "data/imagens_validacao",
+    "images_total": 2,
+    "failed": 0,
+    "threshold": 0.5,
+    "published_name": "FiapModelagemAmeaças",
+    "project_id": "f6d06d5b-d52f-4103-a18a-9dd6887ce858",
+    "dry_run": false,
+    "detections_total": 23
+  },
+  "items": {
+    "data/imagens_validacao/imagem_1.png": [
+      {
+        "label": "DATABASE",
+        "prob": 0.9969035,
+        "bbox_norm": {
+          "left": 0.2700553,
+          "top": 0.8881684,
+          "width": 0.052952796,
+          "height": 0.027823389
+        }
+      },
+      {
+        "label": "DATABASE",
+        "prob": 0.98830813,
+        "bbox_norm": {
+          "left": 0.3895945,
+          "top": 0.8883307,
+          "width": 0.055808425,
+          "height": 0.026838839
+        }
+      },
+      {
+        "label": "DATABASE",
+        "prob": 0.9844518,
+        "bbox_norm": {
+          "left": 0.3887783,
+          "top": 0.8161667,
+          "width": 0.05672571,
+          "height": 0.10210472
+        }
+      },
+      {
+        "label": "DATABASE",
+        "prob": 0.60006225,
+        "bbox_norm": {
+          "left": 0.26919678,
+          "top": 0.81548846,
+          "width": 0.055505693,
+          "height": 0.10987991
+        }
+      },
+      {
+        "label": "monitoring",
+        "prob": 0.9972512,
+        "bbox_norm": {
+          "left": 0.80819404,
+          "top": 0.7602533,
+          "width": 0.063661814,
+          "height": 0.030324042
+        }
+      },
+      {
+        "label": "monitoring",
+        "prob": 0.8051842,
+        "bbox_norm": {
+          "left": 0.79929435,
+          "top": 0.893008,
+          "width": 0.075383425,
+          "height": 0.05446309
+        }
+      },
+      {
+        "label": "SECURITY",
+        "prob": 0.9794869,
+        "bbox_norm": {
+          "left": 0.36561948,
+          "top": 0.18673755,
+          "width": 0.060369313,
+          "height": 0.016590089
+        }
+      },
+      {
+        "label": "SECURITY",
+        "prob": 0.9052315,
+        "bbox_norm": {
+          "left": 0.36408275,
+          "top": 0.13373211,
+          "width": 0.060649544,
+          "height": 0.06907986
+        }
+      },
+      {
+        "label": "SECURITY",
+        "prob": 0.6148834,
+        "bbox_norm": {
+          "left": 0.57020783,
+          "top": 0.1199061,
+          "width": 0.051979363,
+          "height": 0.084803045
+        }
+      },
+      {
+        "label": "SERVER",
+        "prob": 0.9808264,
+        "bbox_norm": {
+          "left": 0.4188215,
+          "top": 0.5908213,
+          "width": 0.10251415,
+          "height": 0.0155925155
+        }
+      },
+      {
+        "label": "STORAGE",
+        "prob": 0.99822253,
+        "bbox_norm": {
+          "left": 0.17346764,
+          "top": 0.8865072,
+          "width": 0.08144182,
+          "height": 0.052697778
+        }
+      },
+      {
+        "label": "SUBNET_PRIVATE",
+        "prob": 0.9926224,
+        "bbox_norm": {
+          "left": 0.63355887,
+          "top": 0.4731324,
+          "width": 0.074373424,
+          "height": 0.058052987
+        }
+      },
+      {
+        "label": "SUBNET_PRIVATE",
+        "prob": 0.9911361,
+        "bbox_norm": {
+          "left": 0.41366637,
+          "top": 0.4718007,
+          "width": 0.08068451,
+          "height": 0.061226755
+        }
+      },
+      {
+        "label": "SUBNET_PRIVATE",
+        "prob": 0.989892,
+        "bbox_norm": {
+          "left": 0.21139413,
+          "top": 0.47586137,
+          "width": 0.071385175,
+          "height": 0.0584715
+        }
+      },
+      {
+        "label": "SUBNET_PRIVATE",
+        "prob": 0.91973203,
+        "bbox_norm": {
+          "left": 0.4182958,
+          "top": 0.47859076,
+          "width": 0.092740655,
+          "height": 0.11824861
+        }
+      },
+      {
+        "label": "USER",
+        "prob": 0.9963356,
+        "bbox_norm": {
+          "left": 0.16236463,
+          "top": 0.17701083,
+          "width": 0.06904931,
+          "height": 0.0152952075
+        }
+      },
+      {
+        "label": "USER",
+        "prob": 0.993298,
+        "bbox_norm": {
+          "left": 0.16818966,
+          "top": 0.15676345,
+          "width": 0.11795901,
+          "height": 0.26860756
+        }
+      },
+      {
+        "label": "USER",
+        "prob": 0.7366272,
+        "bbox_norm": {
+          "left": 0.17076024,
+          "top": 0.28078425,
+          "width": 0.1178979,
+          "height": 0.13124987
+        }
+      },
+      {
+        "label": "USER",
+        "prob": 0.72501826,
+        "bbox_norm": {
+          "left": 0.16583714,
+          "top": 0.16562857,
+          "width": 0.092369884,
+          "height": 0.13011812
+        }
+      },
+      {
+        "label": "VPC",
+        "prob": 0.81875336,
+        "bbox_norm": {
+          "left": 0.18379383,
+          "top": 0.3063932,
+          "width": 0.10703601,
+          "height": 0.09773967
+        }
+      },
+      {
+        "label": "WAF",
+        "prob": 0.9761603,
+        "bbox_norm": {
+          "left": 0.5703991,
+          "top": 0.18691395,
+          "width": 0.052511036,
+          "height": 0.015232772
+        }
+      }
+    ],
+    "data/imagens_validacao/imagem_2.png": [
+      {
+        "label": "API_GATEWAY",
+        "prob": 0.99788874,
+        "bbox_norm": {
+          "left": 0.35134315,
+          "top": 0.43819386,
+          "width": 0.070374906,
+          "height": 0.024143219
+        }
+      },
+      {
+        "label": "API_GATEWAY",
+        "prob": 0.9257855,
+        "bbox_norm": {
+          "left": 0.3375766,
+          "top": 0.43769708,
+          "width": 0.09443915,
+          "height": 0.117177755
+        }
+      }
+    ]
+  }
+}

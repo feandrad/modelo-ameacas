@@ -1,0 +1,663 @@
+{
+  "data/imagens_validacao/imagem_1.png": [
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9969035,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9969035,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9969035,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.98830813,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.98830813,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.98830813,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9844518,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9844518,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.9844518,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.60006225,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.60006225,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "DATABASE",
+      "component_type": "database",
+      "prob": 0.60006225,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "monitoring",
+      "component_type": "monitoring",
+      "prob": 0.9972512,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "monitoring",
+      "component_type": "monitoring",
+      "prob": 0.9972512,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "monitoring",
+      "component_type": "monitoring",
+      "prob": 0.8051842,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "monitoring",
+      "component_type": "monitoring",
+      "prob": 0.8051842,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9794869,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9794869,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9794869,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9052315,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9052315,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.9052315,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.6148834,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.6148834,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SECURITY",
+      "component_type": "security",
+      "prob": 0.6148834,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    },
+    {
+      "component_tag": "SERVER",
+      "component_type": "unknown",
+      "prob": 0.9808264,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "STORAGE",
+      "component_type": "storage",
+      "prob": 0.99822253,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "STORAGE",
+      "component_type": "storage",
+      "prob": 0.99822253,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.9926224,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.9926224,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.9911361,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.9911361,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.989892,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.989892,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.91973203,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "SUBNET_PRIVATE",
+      "component_type": "network",
+      "prob": 0.91973203,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.9963356,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.9963356,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.993298,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.993298,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.7366272,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.7366272,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.72501826,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "USER",
+      "component_type": "user",
+      "prob": 0.72501826,
+      "stride": "Repudiation",
+      "mitigations": [
+        "logs e auditoria",
+        "trilha imutável",
+        "correlação de eventos"
+      ]
+    },
+    {
+      "component_tag": "VPC",
+      "component_type": "network",
+      "prob": 0.81875336,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "VPC",
+      "component_type": "network",
+      "prob": 0.81875336,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "WAF",
+      "component_type": "security",
+      "prob": 0.9761603,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "WAF",
+      "component_type": "security",
+      "prob": 0.9761603,
+      "stride": "Information Disclosure",
+      "mitigations": [
+        "criptografia em trânsito e repouso",
+        "segredos em vault",
+        "segmentação de rede"
+      ]
+    },
+    {
+      "component_tag": "WAF",
+      "component_type": "security",
+      "prob": 0.9761603,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    }
+  ],
+  "data/imagens_validacao/imagem_2.png": [
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.99788874,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.99788874,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.99788874,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.99788874,
+      "stride": "Elevation of Privilege",
+      "mitigations": [
+        "least privilege",
+        "RBAC/scopes",
+        "hardening",
+        "patching"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.9257855,
+      "stride": "Spoofing",
+      "mitigations": [
+        "MFA",
+        "OAuth2/OIDC",
+        "IAM least privilege",
+        "mTLS quando aplicável"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.9257855,
+      "stride": "Tampering",
+      "mitigations": [
+        "TLS",
+        "validação de entrada",
+        "WAF rules",
+        "assinatura/hash de integridade"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.9257855,
+      "stride": "Denial of Service",
+      "mitigations": [
+        "rate limit",
+        "autoscaling",
+        "WAF/Shield",
+        "circuit breaker"
+      ]
+    },
+    {
+      "component_tag": "API_GATEWAY",
+      "component_type": "api",
+      "prob": 0.9257855,
+      "stride": "Elevation of Privilege",
+      "mitigations": [
+        "least privilege",
+        "RBAC/scopes",
+        "hardening",
+        "patching"
+      ]
+    }
+  ]
+}
