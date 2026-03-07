@@ -128,6 +128,12 @@ Exemplos de uso:
         default=None,
         help="JSON STRIDE (default: <output-dir>/threat_model_completo.json)"
     )
+    parser.add_argument(
+        "--out-visualizations",
+        type=str,
+        default=None,
+        help="Pasta para visualizações (default: <output-dir>/visualizacoes)"
+    )
     
     # Configurações
     parser.add_argument(
@@ -161,6 +167,11 @@ Exemplos de uso:
         help="Pula geração do relatório STRIDE"
     )
     parser.add_argument(
+        "--skip-visualizations",
+        action="store_true",
+        help="Pula geração de visualizações"
+    )
+    parser.add_argument(
         "--only-stride",
         action="store_true",
         help="Executa apenas geração STRIDE (assume detecções já feitas)"
@@ -187,6 +198,8 @@ Exemplos de uso:
         args.out_stride_md = str(output_dir / "stride_completo.md")
     if args.out_stride_json is None:
         args.out_stride_json = str(output_dir / "threat_model_completo.json")
+    if args.out_visualizations is None:
+        args.out_visualizations = str(output_dir / "visualizacoes")
     
     # Validações
     if not Path(args.input).exists():
@@ -259,9 +272,22 @@ Exemplos de uso:
             "--out-md", args.out_stride_md,
             "--out-json", args.out_stride_json
         ]
-        run_command(cmd_stride, "Etapa 3/3: Gerar Relatório STRIDE")
+        run_command(cmd_stride, "Etapa 3/4: Gerar Relatório STRIDE")
     else:
         print(f"\n⏭️  Pulando geração STRIDE")
+    
+    # Etapa 4: Gerar Visualizações
+    if not args.skip_visualizations:
+        cmd_viz = [
+            python_exe,
+            "scripts/visualizar_deteccoes.py",
+            "--components", args.out_components,
+            "--arrows", args.out_arrows,
+            "--output", args.out_visualizations
+        ]
+        run_command(cmd_viz, "Etapa 4/4: Gerar Visualizações")
+    else:
+        print(f"\n⏭️  Pulando geração de visualizações")
     
     # Resumo final
     print("\n" + "="*60)
@@ -279,10 +305,18 @@ Exemplos de uso:
     if not args.skip_stride:
         print(f"  • {Path(args.out_stride_md).name}")
         print(f"  • {Path(args.out_stride_json).name}")
+    if not args.skip_visualizations:
+        viz_path = Path(args.out_visualizations)
+        if viz_path.exists():
+            viz_count = len(list(viz_path.glob("*_detected.png")))
+            print(f"  • visualizacoes/ ({viz_count} imagens)")
     
     print("\n📊 Próximos passos:")
-    print(f"  • Ver relatório: cat {args.out_stride_md}")
-    print(f"  • Ver JSON: cat {args.out_stride_json}")
+    if not args.skip_stride:
+        print(f"  • Ver relatório: cat {args.out_stride_md}")
+        print(f"  • Ver JSON: cat {args.out_stride_json}")
+    if not args.skip_visualizations:
+        print(f"  • Ver visualizações: open {args.out_visualizations}")
     print(f"  • Listar runs: ls -lt outputs/")
     print("="*60 + "\n")
 
